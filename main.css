@@ -1,0 +1,631 @@
+* {
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+header {
+
+	position: relative;
+	top: 0
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 100px;
+}
+body.dark {
+background: #000;
+transition: 0.5s;
+
+}
+
+body{
+transition: 0.5s;
+}
+header hr {
+opacity: 0.3;
+width: 100%;
+margin-top: 45px;
+transition: 0.5s;
+}
+
+header img {
+
+	position: relative;
+	width: 130px;
+	animation: bounceInDown;
+	animation-duration: 2s;
+}
+
+.header-second {
+
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 0px 100px;
+    animation: fadeInLeft;
+    animation-duration: 3.5s;
+}
+
+.header-second .navigation {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.header-second .navigation li {
+
+	list-style: none;
+	margin-right: 20px;
+}
+
+.header-second .navigation li a {
+
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+
+.header-second .navigation li a .active {
+
+	margin-left:  50px;
+}
+
+.card .imgBx {
+
+	position: relative;
+	background: url(img/background.jpg);
+    height: 590px;
+    background-repeat: none;
+
+}
+
+.card .imgBx .content {
+
+	position: absolute;
+	padding-left: 100px;
+}
+
+.card .imgBx .content h1{
+
+font-size: 2.0em;
+color: #fff;
+font-weight: 500;
+padding-top: 74px;
+}
+
+.card .imgBx .content p {
+	margin-top: 20px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.card .imgBx2 {
+
+	position: relative;
+	background: url(img/background2.jpg);
+    height: 590px;
+    background-repeat: none;
+
+}
+
+.card .imgBx3 {
+
+	position: relative;
+	background: url(img/background3.jpg);
+    height: 590px;
+    background-repeat: none;
+
+}
+
+.card .imgBx3 .content {
+
+	position: absolute;
+	padding-left: 100px;
+}
+
+.card .imgBx3 .content h1 {
+
+font-size: 2.0em;
+color: #fff;
+font-weight: 500;
+padding-top: 74px;
+}
+
+
+.card .imgBx .content p {
+
+
+}
+
+.card .imgBx4 {
+
+	position: relative;
+	background: url(img/background4.jpg);
+    height: 590px;
+    background-repeat: none;
+
+}
+
+.card .imgBx4 .content {
+position: absolute;
+	padding-left: 100px;
+
+}
+.card .imgBx4 .content h1 {
+
+font-size: 2.0em;
+color: #fff;
+font-weight: 500;
+padding-top: 74px;
+}
+
+.container-slide {
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+;
+}
+.container-slidersses {
+
+	position: relative;
+	padding: 0px 100px;
+
+}
+
+.card .imgBx5 {
+
+		position: relative;
+	background: url(img/background5.jpg);
+    height: 590px;
+    background-repeat: none;
+}
+
+.card .imgBx6 {
+
+		position: relative;
+	background: url(img/background6.jpg);
+    height: 590px;
+    background-repeat: none;
+}
+
+section {
+
+	margin-top: 15px;
+}
+
+.container-second {
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-wrap: wrap;
+   
+
+
+	
+	
+
+}
+
+.card-second {
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 506px;
+	
+
+}
+
+.card-second .imgBxsec {
+   position: relative;
+   width: 506px;
+   height: 300px;
+   overflow: hidden;
+   transition: transform 0.5s;
+	
+}
+.card-second .imgBxsec:hover img {
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+.card-second .imgBxsec img {
+	 position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.5s;
+}
+
+.card-second .imgBxsec .text {
+
+position: relative;
+
+
+}
+.card-second .imgBxsec .text h3 {
+color: #fff;
+font-size: 2.5em;
+padding: 20px 20px;
+}
+
+.card-second .imgBxsec .text .some-text-card {
+	margin-bottom: 50px;
+
+}
+.card-second .imgBxsec .text .some-text-card p {
+color: #fff;
+padding-left: 20px;
+
+
+}
+
+.card-second .imgBxsec .text .btn-card{
+padding-top: 60px;
+padding-left: 20px;
+}
+
+.card-second .imgBxsec .text .btn-card a {
+color: #000;
+background: #fff;
+text-decoration: none;
+padding: 17px 20px;
+font-size: 15px;
+transition: 0.5s;
+}
+
+.card-second .imgBxsec .text .btn-card a:hover {
+
+	background: red;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.card-second .imgBxsec .text .btn-card .btn-second {
+    background: none;
+	margin-left: 5px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.card-second .imgBxsec .text .btn-card .btn-second:hover {
+
+	background: none;
+	color: red;
+	border: 1px solid red;
+}
+
+.card-second .imgBxsec .text .btn-card .fa-chevron-right {
+
+	padding-right: 10px;
+}
+
+
+.some-titel {
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 1.7em;
+	font-weight: 400;
+}
+
+.some-titel h1 {
+
+	font-size: 2.0em;
+	font-weight: 400;
+
+	
+}
+.container-sliders {
+	position: relative;
+	padding: 0px 100px;
+}
+.container-slidersers {
+
+	position: relative;
+	padding: 0px 100px;
+}
+.container-third {
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.container-third .card-models {
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+.container-third .card-models .cardBx {
+position: relative;
+width: 450px;
+
+
+}
+
+.container-third .card-models .cardBx img {
+
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.container-third .card-models .modelbuttons {
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-third .card-models .modelbuttons a {
+
+	color: #000;
+	text-decoration: none;
+	font-size: 23px;
+	font-weight: 400;
+	transition: 0.3s;
+}
+
+.container-third .card-models .modelbuttons a:hover {
+
+	color: red;
+	transition: 0.3s;
+}
+.container-third .card-models .modelbuttons .fa-chevron-right {
+
+	color: red;
+	padding-right: 20px;
+}
+
+.container-photo {
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0px 50px;
+}
+
+.container-photo .photo-card {
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+	
+}
+.container-photo .photo-card .photoBx-card {
+
+
+}
+
+.container-photo .photo-card .photoBx {
+
+	position: relative;
+	width: 250px;
+	height: 280px;
+}
+
+.container-photo .photo-card .photoBx img {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container-photo .photo-card .phototext {
+
+	position: relative;
+	padding-top: 200px;
+	padding-left: 10px;
+}
+
+.container-photo .photo-card .phototext h3 {
+
+	color: #fff;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.container-photo .photo-card .phototext h3 .fa-chevron-right {
+
+	color: red;
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.container-footer {
+    position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 0 100px;
+	grid-gap: 30px; 
+
+
+}
+
+.container-footer ul li {
+
+	list-style: none;
+	margin-top: 20px;
+}
+
+.footer-titel h3{
+
+opacity: 0.5;
+}
+
+.sci-news .footer-link {
+
+	background: #333;
+	padding: 15px 25px;
+	margin-top: 50px;
+}
+
+.sci-news .footer-link a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sci-news .footer-link .fa-share-alt {
+
+color: #fff;
+margin-right: 20px;
+font-size: 20px;
+}
+
+.sci-soci  {
+	
+	margin-top: 20px;
+}
+.sci-soci ul {
+
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+.sci-soci ul li {
+
+	margin-left: 10px;
+}
+
+.sci-soci ul li a {
+
+	text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 10px 15px;
+    font-size: 24px;
+
+}
+.sci-conf ul li a {
+	transition: 0.3s;
+	text-decoration: none;
+	color: #000;
+}
+
+.sci-conf ul li a:hover {
+
+	transition: 0.3s;
+	color: red;
+}
+
+.sci-contact ul li a {
+	transition: 0.3s;
+	text-decoration: none;
+	color: #000;
+}
+
+.sci-contact ul li a:hover {
+
+	transition: 0.3s;
+	color: red;
+}
+
+.sci-dia ul li a {
+	transition: 0.3s;
+	text-decoration: none;
+	color: #000;
+}
+
+.sci-dia ul li a:hover {
+
+	transition: 0.3s;
+	color: red;
+}
+
+.sci-news ul li a {
+	transition: 0.3s;
+	text-decoration: none;
+	color: #000;
+}
+
+.sci-news ul li a:hover {
+
+	transition: 0.3s;
+	color: red;
+}
+
+.sci-soci ul li a {
+	color: #fff;
+}
+
+.sci-soci ul li .faceb:hover {
+ 
+background: blue;
+color: #fff;
+transition: 0.3s;
+}
+
+.sci-soci ul li .youtbe:hover {
+ 
+background: yellow;
+color: #fff;
+transition: 0.3s;
+}
+
+.sci-soci ul li .inst:hover {
+ 
+background: red;
+color: #fff;
+transition: 0.3s;
+}
+footer {
+	padding-top: 100px;
+}
+
+footer hr {
+	padding-bottom: 50px
+}
+
+
+/*ipad-pro*/
+@media(max-width: 1240px; max-height: 1366px) {
+
+.container-slide {
+	slidesToShow: 1;
+}
+}
